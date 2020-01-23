@@ -1,0 +1,66 @@
+body{
+  text-align: center;
+  font-size: 32px;
+  padding: 80px;
+  background-color: #eef9bf;
+}
+p{
+  margin-bottom: 100px;
+  font-size: 72px;
+  font-weight: 800;
+}
+
+.button{
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  font-size: 56px;
+  color: black;
+  font-weight: 900;
+
+}
+.button:hover{
+  color: yellow;
+}
+
+.q{
+background-image: url("images/crash.png");
+}
+.w{
+background-image: url("images/kick.png");
+}
+.e{
+background-image: url("images/snare.png");
+}
+.r{
+background-image: url("images/tom1.png");
+}
+.t{
+background-image: url("images/tom2.png");
+}
+.y{
+background-image: url("images/tom3.png");
+}
+.u{
+background-image: url("images/tom4.png");
+}
+
+@media (max-width: 480px){
+  body{
+    font-size: 24px;
+    padding: 40px;
+  }
+
+  p{
+    margin-bottom: 50px;
+    font-size: 42px;
+  }
+
+  .button{
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    font-size: 24px;
+    font-weight: 200;
+  }
+}
